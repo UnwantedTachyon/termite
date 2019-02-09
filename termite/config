@@ -1,87 +1,103 @@
-# vim: ft=dosini cms=#%s
-
 [options]
-scroll_on_output = false
-scroll_on_keystroke = true
-audible_bell = false
-mouse_autohide = false
-allow_bold = true
-dynamic_title = true
-urgent_on_bell = true
+#allow_bold = true
+#audible_bell = false
 clickable_url = true
+#dynamic_title = true
 font = Monaco 12
+#fullscreen = true
+#icon_name = terminal
+#mouse_autohide = false
+#scroll_on_output = false
+#scroll_on_keystroke = true
+# Length of the scrollback buffer, 0 disabled the scrollback buffer
+# and setting it to a negative value means "infinite scrollback"
 scrollback_lines = 10000
-search_wrap = true
-icon_name = termite
-#geometry = 640x480
-
-# "system", "on" or "off"
-cursor_blink = on
-
-# "block", "underline" or "ibeam"
-cursor_shape = block
+#search_wrap = true
+#urgent_on_bell = true
+#hyperlinks = false
 
 # $BROWSER is used by default if set, with xdg-open as a fallback
-browser = firefox
+#browser = xdg-open
 
-# set size hints for the window
-size_hints = true
+# "system", "on" or "off"
+#cursor_blink = system
+
+# "block", "underline" or "ibeam"
+#cursor_shape = block
 
 # Hide links that are no longer valid in url select overlay mode
-filter_unmatched_urls = true
+#filter_unmatched_urls = true
 
-# emit escape sequences for extra modified keys
+# Emit escape sequences for extra modified keys
 #modify_other_keys = false
 
+# set size hints for the window
+#size_hints = true
+
+# "off", "left" or "right"
+#scrollbar = off
+
 [colors]
+# Base16 Material Darker
+# Author: Nate Peterson
 
-# special
-foreground      = #b4e1fd
-foreground_bold = #b4e1fd
-cursor          = #b4e1fd
-background      = #161925
+foreground          = #eeffff
+foreground_bold     = #eeffff
+cursor              = #eeffff
+cursor_foreground   = #212121
+background          = rgba(18, 28, 33, 0.95)
+# 16 color space
 
-# black
-color0  = #363636
-color8  = #424242
+# Black, Gray, Silver, White
+color0  = #212121
+color8  = #4a4a4a
+color7  = #eeffff
+color15 = #ffffff
 
-# red
-color1  = #ff0883
-color9  = #ff1e8e
+# Red
+color1  = #3E4970
+color9  = #3E4970
 
-# green
-color2  = #83ff08
-color10 = #8eff1e
+# Green
+color2  = #F0696F
+color10 = #F0696F
 
-# yellow
-color3  = #ff8308
-color11 = #ff8e1e
+# Yellow
+color3  = #ffcb6b
+color11 = #ffcb6b
 
-# blue
-color4  = #0883ff
-color12 = #1e8eff
+# Blue
+color4  = #82aaff
+color12 = #82aaff
 
-# magenta
-color5  = #8308ff
-color13 = #8e1eff
+# Purple
+color5  = #c792ea
+color13 = #c792ea
 
-# cyan
-color6  = #08ff83
-color14 = #1eff8e
+# Teal
+color6  = #89ddff
+color14 = #89ddff
 
-# white
-color7  = #b6b6b6
-color15 = #c2c2c2
+# Extra colors
+color16 = #f78c6c
+color17 = #212121
+color18 = #303030
+color19 = #353535
+color20 = #b2ccd6
+color21 = #eeffff
 
 
 [hints]
-font = Monaco 12
-foreground = #b4e1fd
-background = #161925
-active_background = #b4e1fd
-active_foreground = #161925
+#font = Monospace 12
+#foreground = #dcdccc
+#background = #3f3f3f
+#active_foreground = #e68080
+#active_background = #3f3f3f
 #padding = 2
 #border = #3f3f3f
 #border_width = 0.5
 #roundness = 2.0
+
+# vim: ft=dosini cms=#%s
+
 
